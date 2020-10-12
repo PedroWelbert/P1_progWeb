@@ -272,3 +272,148 @@ header #menu .contact-item a:hover{
 #company img:hover {
 	transform: scale(1.2);
 }
+
+#prices{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-image: url("../assets/img/background.png");
+	background-attachment: fixed;
+}
+
+#prices .prices-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+}
+
+#prices h3 {
+	color: var(--vermelho);
+	font-family: Bender;
+	font-weight: lighter;
+	font-size: 250%;
+	margin: .5em 0;
+}
+
+#prices .row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#prices .price-item {
+	width: 33%;
+	height: 75vh;
+	margin: 1em;
+	background:	#fff;
+	border-radius: .5em;
+	overflow: hidden;
+}
+
+#prices .row-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 37.5vh;
+	transition: ease-in-out .3s;
+}
+
+#prices .row-1 h4{
+	color: var(--vermelho);
+	font-family: Bender;
+	font-weight: lighter;
+	font-size: 200%;
+	padding-top: 1em;
+	transition: ease-in-out .3s; 
+}
+
+#prices .row-1 h5{
+	color: var(--vermelho);
+	font-family: Bender;
+	font-weight: lighter;
+	padding-bottom: .5em;
+	font-size: 200%;
+	transition: ease-in-out .3s;
+}
+
+#prices .row-1 span{
+	color: var(--vermelho);
+	font-family: Bender;
+	font-weight: lighter;
+	transition: ease-in-out .3s;
+}
+
+#prices .border-verde{
+	border: .5em solid var(--verde);
+}
+
+#prices .verde {
+	background: var(--verde);
+}
+
+#prices .border-marrom{
+	border: .5em solid var(--marrom);
+}
+
+#prices .marrom {
+	background: var(--marrom);
+}
+
+#prices .border-azul{
+	border: .5em solid var(--azul);
+}
+
+#prices .azul {
+	background: var(--azul);
+}
+
+#prices .row-1 h6 {
+	color: #fff;
+	font-family: Bender;
+	font-weight: lighter;
+	padding-bottom: .3em;
+	font-size: 150%;
+}
+
+#prices .row-1 a {
+	padding: 0.25em 1em;
+}
+
+#prices .row-1 .button {
+	background: #fff;
+	padding: 0.25em 1em;
+	border-radius: .25em;
+	color: var(--vermelho);
+	font-family: Bender;
+	font-size: 120%;
+	transition: ease-in-out .3s;
+}
+
+#prices .row-1 .button:hover {
+	background: var(--vermelho);
+	color: #fff;
+	transform: scale(1.1);
+
+}
+
+#prices .price-item:hover .back-verde {
+	background: var(--verde);
+}
+
+#prices .price-item:hover .back-marrom {
+	background: var(--marrom);
+}
+
+#prices .price-item:hover .back-azul {
+	background: var(--azul);
+}
+
+#prices .price-item .row-1 img {
+	transition: ease-in-out .75s;
+}
+
+#prices .price-item:hover .row-1 img {
+	transform: rotate(360deg);
+}
