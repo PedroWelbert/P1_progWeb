@@ -395,7 +395,6 @@ header #menu .contact-item a:hover{
 	background: var(--vermelho);
 	color: #fff;
 	transform: scale(1.1);
-
 }
 
 #prices .price-item:hover .back-verde {
@@ -416,4 +415,117 @@ header #menu .contact-item a:hover{
 
 #prices .price-item:hover .row-1 img {
 	transform: rotate(360deg);
+}
+
+#contact {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+#contact .map {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#contact .map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+#contact .form {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	padding: 0 5em;
+	flex-direction: column;
+}
+
+#contact .form .title{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 1em;
+}
+
+#contact .form h4{
+	color: var(--vermelho);
+	font-family: Bender;
+	font-weight: lighter;
+	padding: .5em;
+	font-size: 250%;
+}
+
+#contact .form .row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#contact .form .nome,
+ .sobrenome, .endereco,
+ .cep, .bairro, .cidade,
+ .estado, .telefone, .email,
+ .mensagem, .bolos, .quantidade
+{
+	padding: .5em;
+	margin: .5em 0; 
+	border-radius: .25em;
+	border: solid .25em var(--verde);
+	font-weight: lighter;
+	font-family: Bender;
+	font-size: 125%;
+	color: var(--azul);
+}
+
+#contact .form label {
+	font-weight: lighter;
+	font-family: Bender;
+	font-size: 100%;
+	color: var(--azul);
+}
+
+#contact .form .nome, .sobrenome, .bolos {
+	width: 49%;
+}
+
+#contact .form .endereco, .email {
+	width: 66%;
+}
+
+#contact .form .cep, .telefone {
+	width: 32%;
+}
+
+#contact .form .bairro, .cidade, .estado {
+	width: 32%;
+}
+
+#contact .form .mensagem {
+	width: 100%;
+}
+
+#contact .form .button {
+	background: var(--vermelho);
+	padding: .5em 1em;
+	border-radius: .25em;
+	color: #fff;
+	font-family: Bender;
+	font-size: 120%;
+	transition: ease-in-out .3s;
+	width: 36%;
+	text-align: center;
+}
+
+#contact .form .right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#contact .form .button:hover {
+	background: var(--verde);
 }
