@@ -130,6 +130,11 @@ header #menu .contact-item a:hover{
 .banner-details .item img {
 	width: 7em;
 	margin-right: 1em;
+	transition: ease-in-out .3s;
+}
+
+.banner-details .item:hover img {
+	transform: scale(1.2);
 }
 
 .banner-details .item h4 {
@@ -528,4 +533,124 @@ header #menu .contact-item a:hover{
 
 #contact .form .button:hover {
 	background: var(--verde);
+}
+
+
+footer {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background: var(--verde);
+}
+
+footer .footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: ;
+}
+
+footer .footer-container .column{
+	width: 33%;
+	margin: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer .column img{
+	width: 60%;
+	padding: 1em;
+}
+
+footer .column h4{
+	color: #fff;
+	font-family: Bender;
+	font-size: 100%;
+	padding: .5em 1em;
+	letter-spacing: 1px;
+}
+
+footer .column p{
+	color: #fff;
+	font-family: Roboto;
+	font-size: 100%;
+	padding: .5em 1em;
+}
+
+footer .column h3 {
+	color: #fff;
+	font-family: Bender;
+	font-size: 200%;
+	padding: .5em 1em;
+	letter-spacing: 1px;
+}
+
+footer .column a {
+	color: #fff;
+	font-family: Bender;
+	font-size: 150%;
+	padding: .5em 1em;
+	letter-spacing: 1px;
+	transition: ease-in-out .3s;
+}
+
+footer .column a:hover {
+	color: var(--azul);
+}
+
+footer .contact-list{
+	display: flex;
+	justify-content: center;
+	align-items: initial;
+	flex-direction: column;
+}
+
+footer .contact-item{
+	display: flex;
+	justify-content: flex-start;
+	align-items: initial;
+}
+
+footer .contact-item img {
+	width: 20%;
+}
+
+footer .contact-item h3 {
+	color: #fff;
+	font-family: Bender;
+	font-size: 200%;
+	padding-left: .25em;
+	letter-spacing: 1px;
+}
+
+footer .contact-item h4 {
+	color: #fff;
+	font-family: Bender;
+	font-size: 100%;
+	padding-left: .25em;
+	letter-spacing: 1.5px;
+}
+
+footer .redes-sociais  {
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer .redes-sociais img {
+	width: 100%;
+	padding: 0;
+}
+
+footer .copyright {
+	background: var(--azul);
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+footer .copyright p{
+	font-family: Roboto;
+	color: #fff;
 }
